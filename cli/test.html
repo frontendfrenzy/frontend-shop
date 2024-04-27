@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //TEST
+       console.log(/abc/.test("abc"));
+       console.log(/ac/.test("abc"));
+
+       // 
+       let daytime = /\d\d \d\d \d\d\d\d \d\d:\d\d/;
+       console.log(daytime.test("12 10 2024 12:00"));
+
+        let word = /\w \w\w\w\w \w\w\w/;
+        console.log(word.test("i love you"));
+
+        let space = /\s\s\s\s\s\s\s/;
+        console.log(space.test("       "));
+    </script>
+</body>
+</html>

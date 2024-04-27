@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//PROTO TYPES
+const person = {
+    alive:true
+}
+const musisun = {
+    play:true
+}
+Object.setPrototypeOf(musisun,person);
+console.log(Object.getPrototypeOf(musisun));
+
+/*musisun.__proto__ = person;
+console.log(musisun)
+console.log(person.alive);
+console.log(musisun.alive);*/
+
+
+
+function Person(name,age){
+  this.name = name;
+  this.age = age;
+}
+Person.prototype.sayhello = function(){
+    console.log(`hello ${this.name} your age ${this.age}`);
+}
+const person1 = new Person("faleel",18);
+person1.sayhello();
+
+
+    </script>
+</body>
+</html>

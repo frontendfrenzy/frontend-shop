@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cantain">
+        <div class="navbar">
+            <div class="logo">
+<img src="https://i.ibb.co/2WVsjVw/p-To5-LRLnc.jpg">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">time</a></li>
+                    <li><a href="https://youtu.be/Svtr-p4mrQ8?si=K6-Q6EGd6zcToL2k">intro</a></li>
+                    <li><a href="">about</a></li>
+                </ul>
+            </nav>
+            <div class="cart">
+<img src="https://i.ibb.co/H2tB1QL/menu-icon-png-3-lines-14.png">
+            </div>
+        </div>
+        <div class="content">
+        <h1>you should <br>always feel pretty</h1>
+        <p>click this button fast</p>
+        <a href="" class="btn">join now</a>
+        </div>
+    </div>
+    <img src = "https://i.ibb.co/VCHfTNj/3b25220afe08fd37187f636aa96adac2.png" class="justine-img">
+    <style>
+        .justine-img{
+        height: 90%;
+        position: absolute;
+        bottom: 0;
+        right: 160px;
+        }
+        .content{
+            backdrop-filter: blur(10px);
+            border: 2px solid gray;
+            border-radius: 10px;
+            padding-top:10px;
+            width: 30vw;
+            padding-left: 30px;
+            padding-right: 10px;
+            padding-bottom: 30px;
+        }
+        .content .btn{
+        display: inline-block;
+        background: linear-gradient(45deg,rgb(109, 109, 237),rgb(245, 114, 245));
+        border-radius: 6px;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        color: azure;
+        box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+        text-decoration: none;
+        margin-top: 50px;
+        }
+        nav ul li a:hover{
+            background-color: rgb(87, 87, 232);
+            transition-property: background-color;
+            transition: 3s;
+        }
+       nav ul li a::before{
+            content: "";
+            top: 0%;
+            left:0% ;
+            width:0% ;
+            height:0% ;
+            position: absolute;
+            background-color: rgb(255, 255, 255,0.1);
+            transition: all 0.5s ease;
+            transform: translate(-50%,-50%) rotate(45deg);
+            z-index: 0;
+        }
+        .content p{
+            font-size: 20px;
+            color: rgb(224, 238, 252);
+        }
+        .content h1{
+        font-size: 60px;
+        font-weight: 100;
+        margin-top: 24px;
+        margin-bottom: 15px;
+        color: rgb(171, 229, 248);
+        }
+        .content{
+            margin-left: 120px;
+            margin-top: 110px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: azure;
+            border-radius: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            position: relative;
+            overflow: hidden;
+            background-color: transparent;
+
+            border: 2px solid rgb(152, 55, 255);
+            backdrop-filter: blur(20px);
+        }
+        nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 0px 20px;
+        }
+        nav{
+            flex: 1;
+            padding-left: 60px;
+        }
+        .navbar{
+            width: 100%;
+            height: 15vh;
+            margin: auto;
+            display: flex;
+            align-items: center;
+        }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .logo img{
+        width: 60px;
+        margin-top: 5px;
+        border-radius: 60px;
+        cursor: pointer;
+    }
+    .cart img{
+        width: 80px;
+        cursor: pointer;
+    }
+    .cantain{
+        background-image:url("https://i.ibb.co/QN01KKL/e2b62ce06e0f94ab9c9f12f1618a47be.jpg");
+        width: 100%;
+        height: 100vh;
+        padding-left: 5%;
+        padding-right: 5%;
+        box-sizing: border-box;
+        box-sizing: border-box;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    .contain::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.6);
+    }
+    </style>
+</body>
+</html>

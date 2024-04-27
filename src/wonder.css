@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbars .nav-link .ctn{
+    color: aliceblue;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image:url("https://i.ibb.co/4T4FBCd/nothing-phone-2-boasts-flagship-features-but.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    
+}
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-content h2{
+    font-size: 4vmin;
+    text-shadow: 2px 2px 3px black;
+}
+.active{
+    color: bisque;
+    text-shadow: 2px 2px 3px black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background-color: rgb(255, 20, 20);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    color: rgb(180, 11, 11);
+}
+.row img{
+    box-shadow: 2px 2px 3px black;
+}
+.ctn{
+    padding: 10px 15px;
+    background-image: linear-gradient(45deg,rgb(32, 32, 194),rgb(112, 13, 198));
+    border-radius: 5px;
+    color: whitesmoke;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style: none;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+h2{
+    text-shadow: 2px 2px 3px red;
+}
+.nav-link li{
+    margin: 0 30px;
+    backdrop-filter: blur(9px);
+    border: 1px solid rgb(50, 13, 184);
+    padding: 10px;
+    color: #18191b;
+    border-radius: 7px;
+}
+section{
+    width: 80%;
+    margin: 80px auto;
+
+
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(22, 22, 60);
+}
+.header-content span{
+    color: rgb(255, 255, 255);
+}
+.navbars{
+    display: flex;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40px;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+}
+@media only screen and (max-width:850px){
+    .menu-btn{
+        display: block;
+    }
+    .navbars{
+        padding: 0;
+    }
+    .logo{
+        position: absolute;
+        top:30px;
+        left: 30px;
+    }
+    .nav-link{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background-image: linear-gradient(45deg,rgb(43, 43, 231),rgb(130, 17, 230));
+        margin-top: -900px;
+        transition: all 0.5s ease;
+    }
+    .mobile-menu{
+         margin-top: 0px;
+          border-bottom-right-radius: 25%;
+    }
+    .nav-link li{
+        margin: 30px auto;
+
+
+    }
+    .footer{
+        padding: 10px;
+    }
+    .explore-content {
+        width: 100%;
+    }
+    .row .col{
+        margin: 20px auto;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .col img{
+        max-width: 90%;
+    }
+}
+img{
+    transition: transform .3s ease;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.explore{
+    background: linear-gradient(45deg,rgb(24, 22, 22),rgb(5, 4, 4));
+    width: 100%;
+    height: 100vh;
+    background-image:url('https://i.ibb.co/BryLgmw/OIP-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.explore-content{
+    backdrop-filter: blur(7px);
+    width: 60%;
+    margin-left:50px ;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.explore-content span{
+    color: rgb(234, 179, 179);
+}
+.footer{
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background: #13131d;
+    text-align: center;
+}
+.footer p{
+    color: rgb(255, 255, 255);
+    margin: 20px auto;
+    padding: 20px auto;
+}
+.explore-content h1{
+   font-size: 7vmin;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin: 10px;
+   text-shadow: 2px 2px 3px black;
+   color: rgb(203, 203, 203);
+   text-align: center;
+}
+.explore-content  .ctn{
+    margin-top: 10px;
+    text-align: center;
+}
+.explore-content p{
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+.events h{
+    text-shadow: 2px 2px 3px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body,html{
+    overflow-x: hidden;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.row .col img{
+    width: 80%;
+
+}
+img{
+    border-radius: 10px;
+}
+.events .row{
+    margin-top: 50px;
+}
+h4{
+    font-size: 3vmin;
+    margin: 20px auto;
+    color: rgb(5, 5, 35);
+}
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    color: rgb(55, 55, 55);
+    padding: 0px 40px;
+}
+.events .ctn{
+    margin-top: 30px;
+}
+.events {
+    background-color: beige;
+}

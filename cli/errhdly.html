@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        try{
+            console.log("start of try runs");
+            unicycle;
+            console.log("end of try never reached");
+        }
+        catch(err){
+            console.log("error has occured:"+ err.stack);
+        }
+        finally{
+            console.log("this is always run");
+        }
+        console.log("then the execution continues");
+        */
+        try{
+        num = prompt("Enter some number");
+        if(num === '')
+        throw "cannot be empty"
+        if(isNaN(num))
+              throw "enter a valid number!"
+        console.log(num**4);
+        }
+        catch(error){
+            console.log(error);
+        }
+
+
+
+
+
+    </script>
+</body>
+</html>

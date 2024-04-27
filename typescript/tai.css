@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: none;
+}
+
+
+
+
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+}
+.nav-list a:hover{
+    color:var(--main-color);
+}
+.center-content h1{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ text-shadow: 2px 2px 3px black;
+ transform: translate(-50%,-50%);
+ 
+ font-size: 45px;
+ color: azure;
+}
+button a{
+    text-decoration:none;
+    color:white;
+}
+
+ .second-content .event h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width:80%;
+    text-shadow: 2px 2px 3px black;
+    font-size: 4vmin;
+    text-decoration: underline;
+    margin:80px auto;
+}
+.row{
+    display: flex;
+}
+
+
+img{
+ margin-left: 50px;
+}
+
+.col img{
+    border-radius: 20px;
+    box-shadow:2px 2px 3px black;
+
+}
+.col h4 {
+    text-align: center;
+    margin-top:50px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid green;
+    background-image: linear-gradient(45deg,rgb(6, 108, 6),rgb(36, 231, 36));
+    border-radius: 10px;
+    color: aliceblue;
+    width: 150px;
+    box-shadow: 2px 2px 3px black;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 260px;
+
+}
+header{
+    backdrop-filter: blur(5px);
+}
+.dole h4{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border: 2px solid rgb(24, 60, 243);
+    background-image: linear-gradient(45deg,rgb(13, 32, 152),rgb(30, 92, 236));
+    color: aliceblue;
+    box-shadow: 2px 2px 3px black;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 290px;
+    width: 150px;
+}
+
+.col p{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 3px black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.dole p{
+    text-align: left;
+    text-shadow: 2px 2px 3px black;
+    margin-top:20px;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer span{
+    color:rgb(75, 10, 144);
+}
+footer {
+    margin-top:20px;
+}
+footer p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+    padding:20px;
+    background-color: black;
+    color: antiquewhite;
+ 
+    font-size: 4vmin;
+}
+
+.center-content h3{
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 62%;
+    text-align: center;
+    left: 50%;
+    text-shadow: 2px 2px 3px black;
+    transform: translate(-50%,-50%);
+    color: azure;
+   }
+   .center-content button{
+    border: none;
+    border-radius: 7px;
+    padding: 15px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(45deg,rgb(63, 182, 242),rgb(14, 33, 201),rgb(208, 6, 219));
+    position: absolute;
+    top: 71%;
+    left: 47%;
+    transition: all .6s ease;
+    text-shadow: 2px 2px 3px black;
+    color: rgb(255, 255, 255);
+   }
+   .center-content button:hover{
+    transform: scale(1.1);
+    color: rgb(248, 242, 246);
+}
+.nav-list a{
+  background-image: linear-gradient(45deg,rgb(40, 152, 232),rgb(18, 18, 206));
+    text-decoration: none;
+    border: 1px solid rgb(12, 34, 183);
+    border-radius: 7px;
+    padding: 10px;
+    display: inline-block;
+    transition: all .6s ease;
+    margin: 0 35px;
+    color:rgb(255, 255, 255);
+    font-size: var(--p-font);
+    transition: all .6s ease;
+}
+.nav-list a:hover{
+    transform: scale(1.1);
+    color: rgb(60, 77, 235);
+}
+.hero{
+    position: relative;
+    width: 100%;
+    background: linear-gradient(rgb(0, 0, 0, 0.7),rgb(0, 0, 0, 0.7)),url("https://i.ibb.co/FxL5Gh2/R.jpg");
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+    height: 100vh;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 35px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .50s ease;
+}
+
+.right{
+    text-decoration: none;
+    border: 2px solid rgb(46, 78, 238);
+    border-radius: 7px;
+    padding: 10px;
+    color:rgb(255, 255, 255);
+    transition: all .6s ease;
+    background-image: linear-gradient(45deg,rgb(63, 182, 242),rgb(14, 33, 201),rgb(208, 6, 219));
+}
+.right:hover{
+    transform: scale(1.1);
+}
+.right-content{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 115px;
+}
